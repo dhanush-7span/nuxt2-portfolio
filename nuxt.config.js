@@ -45,4 +45,10 @@ export default {
   },
 
   components: true,
+
+  target: 'static',
+
+  router: {
+    base: '/nuxt2-portfolio/',
+  },
 }
